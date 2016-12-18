@@ -1,0 +1,17 @@
+@relation skiing
+
+@attribute temperature { hot, mild, cool }
+@attribute windy { true, false }
+@attribute outlook { sunny, overcast }
+@attribute snow_cover { low, medium, high }
+@attribute rainfall { sleet, rain, snow, none }
+@attribute ski? { yes, no }
+
+@data
+hot, false, overcast, medium, none, no
+hot, true, sunny, high, none, no
+hot, true, sunny, high, sleet, no
+mild, false, sunny, high, none, yes
+mild, false, sunny, low, none, no
+cool, true, sunny, medium, none, yes
+cool, true, overcast, medium, snow, no
